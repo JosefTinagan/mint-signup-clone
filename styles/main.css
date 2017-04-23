@@ -1,13 +1,21 @@
 .logo-header{
 	margin: auto;
-	width: 60%;
+	width: 65%;
 	display:block;
 	margin-bottom: 10px;
 }
 
+.logo-container{
+
+	background: url("../assets/pictures/mint_logo.png") no-repeat 0 0;
+	width: 105px;
+	height: 50px;
+}
+
 .header-links{
-	display: inline-block;
+	display: inline;
 	float: right;
+	margin-top: -30px;
 }
 
 .header-links a:link{
@@ -24,10 +32,11 @@
 
 .form-container{
 	margin: auto;
-	width: 60%;
+	width: 65%;
 	background-color: white;
 	height: 100%;
-	box-shadow: 0px 0px 5px green;
+	box-shadow: 1px 1px 3px #aaa;
+	color: #777;
 }
 
 .form-space{
@@ -46,6 +55,11 @@ form{
 	border-style: none;
 }
 
+.user-info h1{
+	font-weight: normal;
+	color: #111;
+}
+
 .user-info label{
 	display: block;
 	margin: 20px 0 20px 0;
@@ -59,14 +73,22 @@ form{
 }
 
 .button-submit{
-	width: 150px;
+	width: 130px;
+	height: 40px;
+	background-color: #45cae6;
+	border-style: none;
+	color: white;
+	padding: 0 20px;
+	font-size: 1.125em;
 }
 
 .submit-picture{
-	height: 1em;
-	width: .8em;
+	height: .9em;
+	width: 6em;
 	display:inline-block;
-	background-color: blue;
+	background-image: url("../assets/pictures/icon-whitelock@3x.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .phone-number-info{
@@ -82,15 +104,21 @@ form{
 
 
 .terms-and-agreements{
-	font-size: 10px;
+	font-size: 11px;
+	color: #333;
+}
+
+.terms-and-agreements a:link{
+	text-decoration: none;
+	color: #55cae6;
 }
 
 
 /* Aside Content */
 
 aside{
-	margin-top: -550px;
-	width: 33.5%;
+	margin-top: -690px;
+	width: 35.5%;
 	height: 500px;
 	float: right;
 	display: block;
@@ -107,7 +135,7 @@ aside{
 }
 
 .aside-content{
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	margin-top: -5px;
 	padding-top: 10px;
@@ -123,6 +151,9 @@ aside{
 	margin-bottom: 10px;
 }
 
+.safe-secure{
+	color: #777;
+}
 
 
 /* Footer */
@@ -131,6 +162,7 @@ footer{
 	margin: auto;
 	clear: both;
 	width: 60%;
+	color: #888;
 }
 
 .footer-links{
@@ -150,6 +182,14 @@ footer{
 	margin: 0 15px 0 15px;
 }
 
+.licenses-text{
+	color: #55cae6;
+	text-decoration: none;
+}
+
+.licenses-text:hover{
+	text-decoration: underline;
+}
 .footer-links a:hover{
 	text-decoration: underline;
 }
@@ -164,3 +204,20 @@ footer p{
 	text-align: center;
 	margin-bottom: 30px;
 }
+
+.norton-logo{
+	background: blue url("../assets/pictures/vseal.gif") no-repeat 0 0;
+	height: 58px;
+	width: 100px; 
+	display: inline-block;
+
+}
+
+.truste-logo{
+	background: blue url("../assets/pictures/truste.png") no-repeat 0 -126px;
+	width: 160px;
+	height: 52px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
